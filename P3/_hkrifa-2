@@ -10,7 +10,7 @@ RUN apt-get -y install bridge-utils
 RUN curl -s https://deb.frrouting.org/frr/keys.gpg 
 RUN apt-get update && apt-get -y install frr frr-pythontools
 COPY daemons /etc/frr/
-COPY _misaev-RR.sh .
-COPY _misaev-2.sh .
-COPY _misaev-3.sh .
-COPY _misaev-4.sh .
+COPY _hkrifa-RR.sh .
+COPY _hkrifa-2.sh .
+COPY _hkrifa-3.sh .
+COPY _hkrifa-4.sh .
